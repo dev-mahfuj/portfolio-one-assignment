@@ -12,6 +12,13 @@ body {
     margin: 0 auto;
 }
 
+.stay-focused .headline {
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato, rgb(243, 159, 149));
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
 .stay-focused h1 {
     margin: 0;
     font-family: 'Roboto Slab', serif;
@@ -75,4 +82,122 @@ body {
     background-color: rgba(245, 225, 188, 0.911);
     border-radius: 5px;
     padding: 15px;
+}
+
+
+/* ------------------flex-container---------------------- */
+
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.flex-img {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 45%;
+}
+
+.flex-img img {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.flex-intro h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.flex-intro button {
+    margin: 15px 0;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    font-size: 1rem;
+    color: white;
+}
+
+.flex-img-two {
+    background-image: url(images/shapes/shape-1.png);
+    background-position: bottom -30% right 45px;
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+
+.flex-img-two img {
+    margin-left: 20%;
+    width: 60%;
+}
+
+
+/* -----------------extra section--------------  */
+
+.extra-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.extra-section h2 {
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe {
+    margin-top: 30px;
+}
+
+.extra-section .reviews .subscribe input[type=text] {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(235, 105, 82, 0.884);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.extra-section .reviews .subscribe input[type=submit] {
+    margin: 15px 0;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    font-size: 1rem;
+    color: white;
+}
+
+.contact {
+    margin-left: 20%;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+}
+
+.footer {
+    padding: 15px 0;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(83, 81, 81, 0.801);
+    color: aliceblue;
+}
+
+.footer h3 span {
+    color: coral;
+}
+
+.footer h3,
+p {
+    margin: 0;
 }
