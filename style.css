@@ -3,11 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.stay-focused {
+.stay-focused,
+.mission-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -21,7 +22,57 @@ body {
     color: orange;
 }
 
+.stay-focused button {
+    margin: 25px 0;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    font-size: 1rem;
+    color: white;
+}
+
 .profile-image img {
     width: 50%;
     margin-left: 35%;
+}
+
+
+/* ----------my-mission section------------- */
+
+.my-mission h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.my-mission h2 span {
+    color: orange;
+}
+
+.mission-container img {
+    width: 100px;
+}
+
+.my-mission h3 {
+    margin-top: 0;
+}
+
+.mission {
+    background-color: rgba(192, 225, 229, 0.877);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.vision {
+    background-color: rgba(248, 186, 179, 0.89);
+    border-radius: 5px;
+    margin: 0 50px;
+    padding: 15px;
+}
+
+.goals {
+    background-color: rgba(245, 225, 188, 0.911);
+    border-radius: 5px;
+    padding: 15px;
 }
