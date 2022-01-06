@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stay-focused {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.stay-focused h1 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+}
+
+.color-word {
+    color: orange;
+}
+
+.profile-image img {
+    width: 50%;
+    margin-left: 35%;
+}
